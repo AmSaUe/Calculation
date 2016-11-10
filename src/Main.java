@@ -55,8 +55,7 @@ public class Main {
 		
 			keyboard.nextLine();// Enables the program to print a String (in this case a "y" after writing a Integer 
 			System.out.println("Would you like to preform another calculation? Press y = Yes or n = No");// ask the user to type a number on the console screen
-			System.out.println("Would you like to preform another calculation? Press y = Yes or n = No");
-			System.out.println("Would you like to preform another calculation? Press y = Yes or n = No");
+			
 			String userAnswer = keyboard.nextLine();	// Prints the users choice on the screen;
 			
 			if (userAnswer.equals("y")){// if the user chooses Yes "y" then the program runs again from the start "How many stars do you want to print? "
